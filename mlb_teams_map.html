@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01dab0a252ec0ae6789f55ba7733943b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_01dab0a252ec0ae6789f55ba7733943b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_01dab0a252ec0ae6789f55ba7733943b = L.map(
+                "map_01dab0a252ec0ae6789f55ba7733943b",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a32b852101dfcd5355ee472445c1a9c7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a32b852101dfcd5355ee472445c1a9c7.addTo(map_01dab0a252ec0ae6789f55ba7733943b);
+        
+    
+            var marker_b06fe9db555ffd028a7fc305e24bd0a9 = L.marker(
+                [33.749, -84.388],
+                {}
+            ).addTo(map_01dab0a252ec0ae6789f55ba7733943b);
+        
+    
+            var icon_8ab576d043567c2742f9459af95dc35a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b06fe9db555ffd028a7fc305e24bd0a9.setIcon(icon_8ab576d043567c2742f9459af95dc35a);
+        
+    
+        var popup_65c66445448ee5bc8db7f50aac185e0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1001b0a5e25a3db24fdfe187a9b436f = $(`<div id="html_d1001b0a5e25a3db24fdfe187a9b436f" style="width: 100.0%; height: 100.0%;">Atlanta Braves (104-58)</div>`)[0];
+                popup_65c66445448ee5bc8db7f50aac185e0c.setContent(html_d1001b0a5e25a3db24fdfe187a9b436f);
+            
+        
+
+        marker_b06fe9db555ffd028a7fc305e24bd0a9.bindPopup(popup_65c66445448ee5bc8db7f50aac185e0c)
+        ;
+
+        
+    
+    
+            var marker_ca922c404362de0046a53c3a412c9a6f = L.marker(
+                [39.9526, -75.1652],
+                {}
+            ).addTo(map_01dab0a252ec0ae6789f55ba7733943b);
+        
+    
+            var icon_fc4deb46027352a9962907626a29e248 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ca922c404362de0046a53c3a412c9a6f.setIcon(icon_fc4deb46027352a9962907626a29e248);
+        
+    
+        var popup_d533a040af95d25f3a746a1c32412584 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b53426c7e547a2fbf246ca9f756cfa0 = $(`<div id="html_0b53426c7e547a2fbf246ca9f756cfa0" style="width: 100.0%; height: 100.0%;">Philadelphia Phillies (90-72)</div>`)[0];
+                popup_d533a040af95d25f3a746a1c32412584.setContent(html_0b53426c7e547a2fbf246ca9f756cfa0);
+            
+        
+
+        marker_ca922c404362de0046a53c3a412c9a6f.bindPopup(popup_d533a040af95d25f3a746a1c32412584)
+        ;
+
+        
+    
+    
+            var marker_804c78e4898588525af612aad529b3b1 = L.marker(
+                [25.7617, -80.1918],
+                {}
+            ).addTo(map_01dab0a252ec0ae6789f55ba7733943b);
+        
+    
+            var icon_3412510cd59d1aef343e5efbae1dd839 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_804c78e4898588525af612aad529b3b1.setIcon(icon_3412510cd59d1aef343e5efbae1dd839);
+        
+    
+        var popup_ec42046a876a8dc002b514804aebaf17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23103edf8ae0433c8160e198aaa2abe2 = $(`<div id="html_23103edf8ae0433c8160e198aaa2abe2" style="width: 100.0%; height: 100.0%;">Miami Marlins (84-78)</div>`)[0];
+                popup_ec42046a876a8dc002b514804aebaf17.setContent(html_23103edf8ae0433c8160e198aaa2abe2);
+            
+        
+
+        marker_804c78e4898588525af612aad529b3b1.bindPopup(popup_ec42046a876a8dc002b514804aebaf17)
+        ;
+
+        
+    
+    
+            var marker_f566de70b4bdeec7492f9ed15c6f39e1 = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(map_01dab0a252ec0ae6789f55ba7733943b);
+        
+    
+            var icon_f5889e697f48dbdd87caa4b9c88eb6c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f566de70b4bdeec7492f9ed15c6f39e1.setIcon(icon_f5889e697f48dbdd87caa4b9c88eb6c1);
+        
+    
+        var popup_f0c77fb80f8a65f68b730739146edd48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c178361aec272060fe2aa73d1105b235 = $(`<div id="html_c178361aec272060fe2aa73d1105b235" style="width: 100.0%; height: 100.0%;">New York Mets (74-88)</div>`)[0];
+                popup_f0c77fb80f8a65f68b730739146edd48.setContent(html_c178361aec272060fe2aa73d1105b235);
+            
+        
+
+        marker_f566de70b4bdeec7492f9ed15c6f39e1.bindPopup(popup_f0c77fb80f8a65f68b730739146edd48)
+        ;
+
+        
+    
+    
+            var marker_7c01268fe11dd9aa94d01b0e6e990014 = L.marker(
+                [38.9072, -77.0369],
+                {}
+            ).addTo(map_01dab0a252ec0ae6789f55ba7733943b);
+        
+    
+            var icon_0c9df80b0714df99b5f2450a9d2fcb48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c01268fe11dd9aa94d01b0e6e990014.setIcon(icon_0c9df80b0714df99b5f2450a9d2fcb48);
+        
+    
+        var popup_836c88796d4ea208bb54c7acc425b69c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dd0475657a05e7fb70e664fa60bfa8c = $(`<div id="html_5dd0475657a05e7fb70e664fa60bfa8c" style="width: 100.0%; height: 100.0%;">Washington Nationals (71-91)</div>`)[0];
+                popup_836c88796d4ea208bb54c7acc425b69c.setContent(html_5dd0475657a05e7fb70e664fa60bfa8c);
+            
+        
+
+        marker_7c01268fe11dd9aa94d01b0e6e990014.bindPopup(popup_836c88796d4ea208bb54c7acc425b69c)
+        ;
+
+        
+    
+    
+            var marker_3904cc188d834ceb265d144a9e9cf312 = L.marker(
+                [29.7604, -95.3698],
+                {}
+            ).addTo(map_01dab0a252ec0ae6789f55ba7733943b);
+        
+    
+            var icon_c141bd91921d390d892361b6c31d2934 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3904cc188d834ceb265d144a9e9cf312.setIcon(icon_c141bd91921d390d892361b6c31d2934);
+        
+    
+        var popup_7f33c9c125c77a3f7484865086a57928 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d2146636dccb05d355a4bd4eb1068e2 = $(`<div id="html_2d2146636dccb05d355a4bd4eb1068e2" style="width: 100.0%; height: 100.0%;">Houston Astros (90-72)</div>`)[0];
+                popup_7f33c9c125c77a3f7484865086a57928.setContent(html_2d2146636dccb05d355a4bd4eb1068e2);
+            
+        
+
+        marker_3904cc188d834ceb265d144a9e9cf312.bindPopup(popup_7f33c9c125c77a3f7484865086a57928)
+        ;
+
+        
+    
+    
+            var marker_46b5b141bb9aebef4ad72506dfefb382 = L.marker(
+                [32.7357, -97.1081],
+                {}
+            ).addTo(map_01dab0a252ec0ae6789f55ba7733943b);
+        
+    
+            var icon_7059edc4fc3ad4664984a7ded8a68dc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46b5b141bb9aebef4ad72506dfefb382.setIcon(icon_7059edc4fc3ad4664984a7ded8a68dc0);
+        
+    
+        var popup_0e11165e5adb9a3a93f491aa68d6543b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1297ceaca15956b1bce421d353b54685 = $(`<div id="html_1297ceaca15956b1bce421d353b54685" style="width: 100.0%; height: 100.0%;">Texas Rangers (90-72)</div>`)[0];
+                popup_0e11165e5adb9a3a93f491aa68d6543b.setContent(html_1297ceaca15956b1bce421d353b54685);
+            
+        
+
+        marker_46b5b141bb9aebef4ad72506dfefb382.bindPopup(popup_0e11165e5adb9a3a93f491aa68d6543b)
+        ;
+
+        
+    
+    
+            var marker_c2503066d5acab6bef49aeca2947e81c = L.marker(
+                [47.6062, -122.3321],
+                {}
+            ).addTo(map_01dab0a252ec0ae6789f55ba7733943b);
+        
+    
+            var icon_11a6845395b5b6e5601f37ee27081e8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c2503066d5acab6bef49aeca2947e81c.setIcon(icon_11a6845395b5b6e5601f37ee27081e8f);
+        
+    
+        var popup_536e579e3b4985eb54ca55d981484a81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_610795a9f7dba1d759941496f01585d9 = $(`<div id="html_610795a9f7dba1d759941496f01585d9" style="width: 100.0%; height: 100.0%;">Seattle Mariners (88-74)</div>`)[0];
+                popup_536e579e3b4985eb54ca55d981484a81.setContent(html_610795a9f7dba1d759941496f01585d9);
+            
+        
+
+        marker_c2503066d5acab6bef49aeca2947e81c.bindPopup(popup_536e579e3b4985eb54ca55d981484a81)
+        ;
+
+        
+    
+    
+            var marker_fb145858395d0baf043e88bb98f49427 = L.marker(
+                [34.0522, -118.2437],
+                {}
+            ).addTo(map_01dab0a252ec0ae6789f55ba7733943b);
+        
+    
+            var icon_1e69ee24ff33785cc405c819cbd68fd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fb145858395d0baf043e88bb98f49427.setIcon(icon_1e69ee24ff33785cc405c819cbd68fd5);
+        
+    
+        var popup_cf45afb028c541ed6968c464cfef4f8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92ae5955150b38419453ec49b7f6a0f1 = $(`<div id="html_92ae5955150b38419453ec49b7f6a0f1" style="width: 100.0%; height: 100.0%;">Los Angeles Angels (73-89)</div>`)[0];
+                popup_cf45afb028c541ed6968c464cfef4f8c.setContent(html_92ae5955150b38419453ec49b7f6a0f1);
+            
+        
+
+        marker_fb145858395d0baf043e88bb98f49427.bindPopup(popup_cf45afb028c541ed6968c464cfef4f8c)
+        ;
+
+        
+    
+    
+            var marker_2b021bcb520a4062ed3678f58f2b9257 = L.marker(
+                [37.8044, -122.2711],
+                {}
+            ).addTo(map_01dab0a252ec0ae6789f55ba7733943b);
+        
+    
+            var icon_4e10b835e1a9be635f9a7888ef0b575a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b021bcb520a4062ed3678f58f2b9257.setIcon(icon_4e10b835e1a9be635f9a7888ef0b575a);
+        
+    
+        var popup_02f5d53dd767b9e43dc128791c844ed1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a34cd2b82f730b5b4ee522f073b2add1 = $(`<div id="html_a34cd2b82f730b5b4ee522f073b2add1" style="width: 100.0%; height: 100.0%;">Oakland Athletics (50-112)</div>`)[0];
+                popup_02f5d53dd767b9e43dc128791c844ed1.setContent(html_a34cd2b82f730b5b4ee522f073b2add1);
+            
+        
+
+        marker_2b021bcb520a4062ed3678f58f2b9257.bindPopup(popup_02f5d53dd767b9e43dc128791c844ed1)
+        ;
+
+        
+    
+</script>
+</html>
