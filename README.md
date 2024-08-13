@@ -1,1 +1,2 @@
 # baseball_data
+This research addresses the widespread use of WAR among baseball fans, many of whom are unfamiliar with the underlying calculations or its correlation with team success. By doing statistical analysis of its relationship to team performance and WPA, this report aims to clarify whether WAR is a meaningful indicator of team success or merely an individualistic stat. 
