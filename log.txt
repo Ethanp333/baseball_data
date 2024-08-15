@@ -1,0 +1,120 @@
+commit c27093e482e2360bf2f5350f362b78bb4246fa5b
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Wed Aug 14 09:05:30 2024 +0000
+
+    final updates
+
+commit 3c3b8daa90646fdfa2f60db6a173526aaa40a5d8
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Wed Aug 14 03:43:07 2024 +0000
+
+    error with slides
+
+commit d6228e244a3c60956670bfd4385546150ce37c73
+Merge: 38c224e ea8fdd2
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Tue Aug 13 22:05:18 2024 +0000
+
+    updated
+
+commit 38c224e70b6d350f98f0d87a5f395123de22f150
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Tue Aug 13 14:28:13 2024 +0000
+
+    final updates
+
+commit 8c3a5b6255c698e99f53ac9d78391e77e5d5fb33
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Tue Aug 13 14:23:03 2024 +0000
+
+    final updates for slide
+
+commit ea8fdd290d657c4814fbb6b1561050239abae1ed
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Tue Aug 13 21:18:12 2024 +1000
+
+    map update
+
+commit c9e9ec13cb92b3bb82dee9f85d0458fae91db6ae
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Tue Aug 13 18:34:55 2024 +1000
+
+    final updates
+
+commit 84f9781ffca03582a374f25ad29dca676ce155d7
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Tue Aug 13 15:52:28 2024 +1000
+
+    updates
+
+commit 1300ae062fa50c2dc40da35400de8b4bbb430ad7
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Tue Aug 13 15:37:56 2024 +1000
+
+    changes
+
+commit f421f8026907acd7c606ce65ba38c86117903676
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Tue Aug 13 15:28:54 2024 +1000
+
+    updates
+
+commit d32ee872c66297203efcb08b1f569497786c83c2
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Tue Aug 13 15:22:48 2024 +1000
+
+    Changes to work
+
+commit 588edd69f021c76e0c6e91fc5a84a3b6ca2c530a
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Tue Aug 13 13:24:15 2024 +1000
+
+    updates
+
+commit c1fabe38075dafbea355c2b5926cf9abd79fd9ce
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Tue Aug 13 13:19:44 2024 +1000
+
+    final updates
+
+commit 53c724b64c1b1251a3f5995195da3333dc190ba4
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Mon Aug 12 20:26:24 2024 +1000
+
+    baseball updates
+
+commit 63be9c1d8b7f2d45f5e8bba45383e5cbb74688dc
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Sun Aug 11 22:09:00 2024 +1000
+
+    updates
+
+commit d91285c632e44bd2c92c3604251e9965a3f47740
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Sun Aug 11 22:04:20 2024 +1000
+
+    baseball update
+
+commit 24f92642fad06c5469e40fc45f0760d7d78c67d6
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Sat Aug 10 11:23:55 2024 +1000
+
+    baseball data
+
+commit 2389f2995c0e3afa0460b007c7fae5665991e0bd
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Wed Jul 24 16:09:31 2024 +1000
+
+    baseball data
+
+commit 0ca9da50bf1689e693b152aaf90dda898dd2ef3a
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Wed Jul 24 16:09:00 2024 +1000
+
+    baseball data
+
+commit cc71ac26eac41095872318abd51802a0e7a25805
+Author: Ethan Petersen <ethanp.professional@gmail.com>
+Date:   Wed Jun 26 19:21:06 2024 +1000
+
+    Initial commit
